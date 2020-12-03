@@ -2,7 +2,7 @@
 The summary statistics of FinMetSeq SV paper
 
 ### 1.summary statistics for all the SVs detected in WGS data tested against 116 traits
-**wgs_stats/${trait}.wgs.mac10.txt.gz**
+*wgs_stats/${trait}.wgs.mac10.txt.gz*
 
 | Colunms | contents |
 | ------- | -------- |
@@ -20,15 +20,15 @@ The summary statistics of FinMetSeq SV paper
 | N | sample size, (sample availability varied by trait) |
 
 
-(The full name of the trait abbreviations can be found from Locke et al. 2020 (PMID:31367044) and Davis et al. 2017 (PMID:29084231) )
+The full name of the trait abbreviations can be found from Locke et al. 2020 (PMID:31367044) and Davis et al. 2017 (PMID:29084231) 
 
 
 ### 2.The summarized table for the replication experiment for the 2053 SV candidates with WGS p<0.001.
-**replication_summary_stats.txt**
+*replication_summary_stats.txt*
 
 | Colunms | contents |
 | ------- | -------- |
-| ID - SV ID from original pipeline (CNV_chr_$pos_$end are GenomeSTRiP CNVs, chr_$pos_$end are CNVnator CNVs, and number IDs belong to LUMPY) | 
+| ID | SV ID from original pipeline (CNV_chr_$pos_$end are GenomeSTRiP CNVs, chr_$pos_$end are CNVnator CNVs, and number IDs belong to LUMPY) | 
 | TRAIT |  the traits tested for association with (combined means male and female data combined) | 
 | CHR | chromosome |
 | POS | starting point of the SV, in GRCh38 reference |
