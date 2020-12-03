@@ -1,7 +1,7 @@
 # FinnSV_paper_1220
 The summary statistics of FinMetSeq SV paper
 
-## 1.summary statistics for all the SVs detected in WGS data tested against 116 traits
+### 1.summary statistics for all the SVs detected in WGS data tested against 116 traits
 **wgs_stats/${trait}.wgs.mac10.txt.gz**
 
 | Colunms | contents |
@@ -23,7 +23,7 @@ The summary statistics of FinMetSeq SV paper
 (The full name of the trait abbreviations can be found from Locke et al. 2020 (PMID:31367044) and Davis et al. 2017 (PMID:29084231) )
 
 
-# 2.The summarized table for the replication experiment for the 2053 SV candidates with WGS p<0.001.
+### 2.The summarized table for the replication experiment for the 2053 SV candidates with WGS p<0.001.
 **replication_summary_stats.txt**
 
 | Colunms | contents |
