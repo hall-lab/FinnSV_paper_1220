@@ -1,8 +1,8 @@
-# FinnSV_paper_1220
+## FinnSV_paper_1220
 The summary statistics of FinMetSeq SV paper
 
-1.summary statistics for all the SVs detected in WGS data tested against 116 traits
- wgs_stats/${trait}.wgs.mac10.txt.gz
+#1.summary statistics for all the SVs detected in WGS data tested against 116 traits
+wgs_stats/${trait}.wgs.mac10.txt.gz
 The full name of the trait abbreviations can be found from Locke et al. 2020 (PMID:31367044) and Davis et al. 2017 (PMID:29084231) 
 Colunms are:
 TRAIT - quantitative trait tested
@@ -19,7 +19,7 @@ AF - allele frequency
 N - sample size, (sample availability varied by trait)
 
 
-2.replication_summary_stats.txt
+#2.replication_summary_stats.txt
 The summarized table for the replication experiment for the 2053 SV candidates with WGS p<0.001.
 Columns are:
 ID - SV ID from original pipeline (CNV_chr*_*_* are GenomeSTRiP CNVs, chr*_*_ are CNVnator CNVs, and number IDs belong to LUMPY)
