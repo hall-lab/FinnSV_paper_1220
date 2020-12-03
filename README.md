@@ -1,25 +1,26 @@
 ## FinnSV_paper_1220
 The summary statistics of FinMetSeq SV paper
 
-#1.summary statistics for all the SVs detected in WGS data tested against 116 traits
+# 1.summary statistics for all the SVs detected in WGS data tested against 116 traits
 wgs_stats/${trait}.wgs.mac10.txt.gz
 The full name of the trait abbreviations can be found from Locke et al. 2020 (PMID:31367044) and Davis et al. 2017 (PMID:29084231) 
-Colunms are:
-TRAIT - quantitative trait tested
-PIPELINE - pipeline used to detect the SV
-ID - the ID of SV
-CHR - chromosome 
-POS - starting point of the SV, in GRCh38 reference
-P - p value in discovery phase with WGS data only
-BETA - beta in discovery phase with WGS data only
-SEBETA - standard deviation of the beta in discovery phase with WGS data only
-R2 - R2 in discovery phase with WGS data only
-AC - the alternative allele count from WGS data, noted for GenomeSTRiP and CNVnator those are #. alternative copy number carriers
-AF - allele frequency 
-N - sample size, (sample availability varied by trait)
+| Colunms | contents |
+| ------- | -------- |
+| TRAIT | quantitative trait tested |
+| PIPELINE | pipeline used to detect the SV |
+| ID | the ID of SV |
+| CHR | chromosome |
+| POS | starting point of the SV, in GRCh38 reference |
+| P | p value in discovery phase with WGS data only |
+| BETA | beta in discovery phase with WGS data only |
+| SEBETA | standard deviation of the beta in discovery phase with WGS data only |
+| R2 | R2 in discovery phase with WGS data only |
+| AC | the alternative allele count from WGS data, noted for GenomeSTRiP and CNVnator those are #. alternative copy number carriers |
+| AF | allele frequency |
+| N | sample size, (sample availability varied by trait) |
 
 
-#2.replication_summary_stats.txt
+# 2.replication_summary_stats.txt
 The summarized table for the replication experiment for the 2053 SV candidates with WGS p<0.001.
 Columns are:
 ID - SV ID from original pipeline (CNV_chr*_*_* are GenomeSTRiP CNVs, chr*_*_ are CNVnator CNVs, and number IDs belong to LUMPY)
